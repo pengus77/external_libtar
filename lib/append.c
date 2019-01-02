@@ -346,8 +346,7 @@ int
 tar_append_buffer(TAR *t, void *buf, size_t len)
 {
 	char block[T_BLOCKSIZE];
-	int filefd;
-	int i, j;
+	int i;
 	size_t size;
 
 	size = len;
