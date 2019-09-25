@@ -216,11 +216,11 @@ size_t strlcat(char *, const char *, size_t);
 #endif /* NEED_STRLCAT && ! HAVE_STRLCAT */
 
 
-#if defined(NEED_STRLCPY) && !defined(HAVE_STRLCPY)
+// #if defined(NEED_STRLCPY) && !defined(HAVE_STRLCPY)
 
-size_t strlcpy(char *, const char *, size_t);
+//size_t strlcpy(char *, const char *, size_t);
 
-#endif /* NEED_STRLCPY && ! HAVE_STRLCPY */
+//#endif /* NEED_STRLCPY && ! HAVE_STRLCPY */
 
 
 #if defined(NEED_STRDUP) && !defined(HAVE_STRDUP)
